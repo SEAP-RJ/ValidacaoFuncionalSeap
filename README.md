@@ -1,8 +1,8 @@
+# Sistema de Validação Funcional SEAP
+
 <p align="center">
   <img src="docs/logo.png" alt="Polícia Penal RJ" width="200">
 </p>
-
-# Sistema de Validação Funcional SEAP
 
 Este `Dockerfile` é utilizado para criar uma imagem Docker para a aplicação de validação funcional do **SEAP** (Secretaria de Estado de Administração Penitenciária do Rio de Janeiro). 
 
