@@ -30,12 +30,12 @@ ENTRYPOINT ["dotnet", "ValidacaoFuncionalSeap.dll", "--urls=http://0.0.0.0:5000"
 3. **Executar o contêiner**: Após a imagem ser construída, você pode executar o contêiner e mapear a porta 5000 do contêiner para a porta 5000 da sua máquina local:
 
    ```bash
-   docker run -d -p 5000:5000 --name validacao-funcional validacao-funcional
+   docker run -d -p 5000:5000 --name validacao-funcional --restart always validacao-funcional
    ```
 
 ### Acessar a aplicação
 
-Agora, você pode acessar sua aplicação .NET no navegador ou em uma ferramenta de API, usando o endereço `http://sti.seap.rj.gov.br:5000/IUValidacaoFuncional?SRG=xxxyyyzzz`.  Substitua `xxxyyyzzz` pelo RG a ser verificado, ignorar os pontos e traços.
+Agora, você pode acessar sua aplicação .NET no navegador ou em uma ferramenta de API, usando o endereço `http://sti.seap.rj.gov.br:5000/IUValidacaoFuncional?SRG=xxxyyyzzz`. Substitua `xxxyyyzzz` pelo RG a ser verificado, ignorar os pontos e traços.
 
 ### Observações
 
