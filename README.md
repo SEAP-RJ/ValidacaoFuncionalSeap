@@ -35,7 +35,7 @@ ENTRYPOINT ["dotnet", "ValidacaoFuncionalSeap.dll", "--urls=http://0.0.0.0:5000"
 
 ### Acessar a aplicação
 
-Agora, você pode acessar sua aplicação .NET no navegador ou em uma ferramenta de API, usando o endereço `http://localhost:5000`.
+Agora, você pode acessar sua aplicação .NET no navegador ou em uma ferramenta de API, usando o endereço `http://sti.seap.rj.gov.br:5000/IUValidacaoFuncional?SRG=xxxyyyzzz`.  Substitua `xxxyyyzzz` pelo RG a ser verificado, ignorar os pontos e traços.
 
 ### Observações
 

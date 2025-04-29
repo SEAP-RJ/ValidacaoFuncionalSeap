@@ -7,7 +7,7 @@ WORKDIR /app
 # Copiar os binários da aplicação para o contêiner
 COPY ./src/ .
 
-# Expor a porta 3333
+# Expor a porta 5000 para acesso externo
 EXPOSE 5000
 
 # Definir o ponto de entrada para a aplicação
