@@ -8,7 +8,7 @@ WORKDIR /app
 COPY ./src/ .
 
 # Expor a porta 5000 para acesso externo
-EXPOSE 5000
+EXPOSE 6000
 
 # Definir o ponto de entrada para a aplicação
-ENTRYPOINT ["dotnet", "ValidacaoFuncionalSeap.dll", "--urls=http://0.0.0.0:5000"]
+ENTRYPOINT ["dotnet", "ValidacaoFuncionalSeap.dll", "--urls=http://0.0.0.0:6000"]
