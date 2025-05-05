@@ -13,9 +13,9 @@ namespace wsValidacao
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ParametrosSistemaDTO", Namespace="http://tempuri.org/")]
-    public partial class ParametrosSistemaDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ParametrosSistema", Namespace="http://tempuri.org/")]
+    public partial class ParametrosSistema : object
     {
         
         private string idSistemaField;
@@ -349,7 +349,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="TpErroValidacaoSolicitante", Namespace="http://tempuri.org/")]
     public enum TpErroValidacaoSolicitante : int
     {
@@ -386,9 +386,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="UF_DTO", Namespace="http://tempuri.org/")]
-    public partial class UF_DTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="UF", Namespace="http://tempuri.org/")]
+    public partial class UF : object
     {
         
         private string co_ufField;
@@ -423,9 +423,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="MotivoDTO", Namespace="http://tempuri.org/")]
-    public partial class MotivoDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Motivo", Namespace="http://tempuri.org/")]
+    public partial class Motivo : object
     {
         
         private int co_motivoField;
@@ -460,9 +460,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="MunicipioDTO", Namespace="http://tempuri.org/")]
-    public partial class MunicipioDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Municipio", Namespace="http://tempuri.org/")]
+    public partial class Municipio : object
     {
         
         private int co_municipioField;
@@ -497,9 +497,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="IdentificacaoDTO", Namespace="http://tempuri.org/")]
-    public partial class IdentificacaoDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Identificacao", Namespace="http://tempuri.org/")]
+    public partial class Identificacao : object
     {
         
         private wsValidacao.TpBase tp_baseField;
@@ -608,7 +608,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="TpBase", Namespace="http://tempuri.org/")]
     public enum TpBase : int
     {
@@ -621,9 +621,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="EnderecoDTO", Namespace="http://tempuri.org/")]
-    public partial class EnderecoDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Endereco", Namespace="http://tempuri.org/")]
+    public partial class Endereco : object
     {
         
         private int cd_logradouroField;
@@ -762,7 +762,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="TpConsultaProtocolo", Namespace="http://tempuri.org/")]
     public enum TpConsultaProtocolo : int
     {
@@ -778,9 +778,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SolicitacaoDTO", Namespace="http://tempuri.org/")]
-    public partial class SolicitacaoDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Solicitacao", Namespace="http://tempuri.org/")]
+    public partial class Solicitacao : object
     {
         
         private long sq_solicitacaoField;
@@ -824,6 +824,10 @@ namespace wsValidacao
         private string msg_exigenciaField;
         
         private string dt_validacaoField;
+        
+        private long nu_cpfField;
+        
+        private bool TemCinField;
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
         public long sq_solicitacao
@@ -1097,9 +1101,35 @@ namespace wsValidacao
                 this.dt_validacaoField = value;
             }
         }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=21)]
+        public long nu_cpf
+        {
+            get
+            {
+                return this.nu_cpfField;
+            }
+            set
+            {
+                this.nu_cpfField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=22)]
+        public bool TemCin
+        {
+            get
+            {
+                return this.TemCinField;
+            }
+            set
+            {
+                this.TemCinField = value;
+            }
+        }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="StatusSolicitacao", Namespace="http://tempuri.org/")]
     public enum StatusSolicitacao : int
     {
@@ -1135,7 +1165,7 @@ namespace wsValidacao
         EmAnaliseIFP = 9,
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="TipoPendencia", Namespace="http://tempuri.org/")]
     public enum TipoPendencia : int
     {
@@ -1157,9 +1187,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AtestadoDTO", Namespace="http://tempuri.org/")]
-    public partial class AtestadoDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Atestado", Namespace="http://tempuri.org/")]
+    public partial class Atestado : object
     {
         
         private long SQ_SOLICITACAOField;
@@ -2078,7 +2108,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SecaoIFP", Namespace="http://tempuri.org/")]
     public enum SecaoIFP : int
     {
@@ -2106,9 +2136,9 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ImprimirDTO", Namespace="http://tempuri.org/")]
-    public partial class ImprimirDTO : object
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Imprimir", Namespace="http://tempuri.org/")]
+    public partial class Imprimir : object
     {
         
         private int sq_operadorField;
@@ -2146,6 +2176,12 @@ namespace wsValidacao
         private int tp_solicitacaoField;
         
         private string co_validacaoField;
+        
+        private string nu_CpfField;
+        
+        private bool TemCinVia1Field;
+        
+        private bool TemCinUltViaField;
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
         public int sq_operador
@@ -2380,17 +2416,56 @@ namespace wsValidacao
                 this.co_validacaoField = value;
             }
         }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=18)]
+        public string nu_Cpf
+        {
+            get
+            {
+                return this.nu_CpfField;
+            }
+            set
+            {
+                this.nu_CpfField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=19)]
+        public bool TemCinVia1
+        {
+            get
+            {
+                return this.TemCinVia1Field;
+            }
+            set
+            {
+                this.TemCinVia1Field = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=20)]
+        public bool TemCinUltVia
+        {
+            get
+            {
+                return this.TemCinUltViaField;
+            }
+            set
+            {
+                this.TemCinUltViaField = value;
+            }
+        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClDestinatarios", Namespace="http://tempuri.org/", ItemName="clDestinatarios")]
     public class ArrayOfClDestinatarios : System.Collections.Generic.List<wsValidacao.clDestinatarios>
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clDestinatarios", Namespace="http://tempuri.org/")]
     public partial class clDestinatarios : object
     {
@@ -2442,14 +2517,14 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClDelegacia", Namespace="http://tempuri.org/", ItemName="clDelegacia")]
     public class ArrayOfClDelegacia : System.Collections.Generic.List<wsValidacao.clDelegacia>
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clDelegacia", Namespace="http://tempuri.org/")]
     public partial class clDelegacia : object
     {
@@ -2486,14 +2561,14 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClMotivo", Namespace="http://tempuri.org/", ItemName="clMotivo")]
     public class ArrayOfClMotivo : System.Collections.Generic.List<wsValidacao.clMotivo>
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clMotivo", Namespace="http://tempuri.org/")]
     public partial class clMotivo : object
     {
@@ -2530,7 +2605,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clFechaAgend", Namespace="http://tempuri.org/")]
     public partial class clFechaAgend : object
     {
@@ -2656,7 +2731,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="FechaDetranAlerta", Namespace="http://tempuri.org/")]
     public enum FechaDetranAlerta : int
     {
@@ -2683,7 +2758,7 @@ namespace wsValidacao
         AlertaForaPrazo = 6,
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ServicoDetranAlerta", Namespace="http://tempuri.org/")]
     public enum ServicoDetranAlerta : int
     {
@@ -2699,14 +2774,14 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClGaleriaFotos", Namespace="http://tempuri.org/", ItemName="clGaleriaFotos")]
     public class ArrayOfClGaleriaFotos : System.Collections.Generic.List<wsValidacao.clGaleriaFotos>
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clGaleriaFotos", Namespace="http://tempuri.org/")]
     public partial class clGaleriaFotos : object
     {
@@ -2803,14 +2878,14 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClGaleriaCriminal", Namespace="http://tempuri.org/", ItemName="clGaleriaCriminal")]
     public class ArrayOfClGaleriaCriminal : System.Collections.Generic.List<wsValidacao.clGaleriaCriminal>
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clGaleriaCriminal", Namespace="http://tempuri.org/")]
     public partial class clGaleriaCriminal : object
     {
@@ -2906,7 +2981,7 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="TipoAcaoPolinter", Namespace="http://tempuri.org/")]
     public enum TipoAcaoPolinter : int
     {
@@ -2921,7 +2996,156 @@ namespace wsValidacao
         PolinterEncaminhou = 2,
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfClSeapFuncional", Namespace="http://tempuri.org/", ItemName="clSeapFuncional")]
+    public class ArrayOfClSeapFuncional : System.Collections.Generic.List<wsValidacao.clSeapFuncional>
+    {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clSeapFuncional", Namespace="http://tempuri.org/")]
+    public partial class clSeapFuncional : object
+    {
+        
+        private string no_cidadaoField;
+        
+        private string nu_idField;
+        
+        private string nu_cautelaField;
+        
+        private string de_especieField;
+        
+        private string de_modeloField;
+        
+        private string dt_validadeField;
+        
+        private string de_marcaField;
+        
+        private string nu_serieField;
+        
+        private string calibre_nivelField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string no_cidadao
+        {
+            get
+            {
+                return this.no_cidadaoField;
+            }
+            set
+            {
+                this.no_cidadaoField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string nu_id
+        {
+            get
+            {
+                return this.nu_idField;
+            }
+            set
+            {
+                this.nu_idField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
+        public string nu_cautela
+        {
+            get
+            {
+                return this.nu_cautelaField;
+            }
+            set
+            {
+                this.nu_cautelaField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
+        public string de_especie
+        {
+            get
+            {
+                return this.de_especieField;
+            }
+            set
+            {
+                this.de_especieField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=4)]
+        public string de_modelo
+        {
+            get
+            {
+                return this.de_modeloField;
+            }
+            set
+            {
+                this.de_modeloField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
+        public string dt_validade
+        {
+            get
+            {
+                return this.dt_validadeField;
+            }
+            set
+            {
+                this.dt_validadeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=6)]
+        public string de_marca
+        {
+            get
+            {
+                return this.de_marcaField;
+            }
+            set
+            {
+                this.de_marcaField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=7)]
+        public string nu_serie
+        {
+            get
+            {
+                return this.nu_serieField;
+            }
+            set
+            {
+                this.nu_serieField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=8)]
+        public string calibre_nivel
+        {
+            get
+            {
+                return this.calibre_nivelField;
+            }
+            set
+            {
+                this.calibre_nivelField = value;
+            }
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="wsValidacao.ServiceSoap")]
     public interface ServiceSoap
     {
@@ -2933,12 +3157,12 @@ namespace wsValidacao
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IncluirLogNovo", ReplyAction="*")]
         System.Threading.Tasks.Task<wsValidacao.IncluirLogNovoResponse> IncluirLogNovoAsync(wsValidacao.IncluirLogNovoRequest request);
         
-        // CODEGEN: Gerando contrato de mensagem porque o nome do elemento ParametrosSistemaResult do namespace http://tempuri.org/ não está marcado como anulável
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ParametrosSistema", ReplyAction="*")]
-        wsValidacao.ParametrosSistemaResponse ParametrosSistema(wsValidacao.ParametrosSistemaRequest request);
+        // CODEGEN: Gerando contrato de mensagem porque o nome do elemento ObterParametrosSistemaResult do namespace http://tempuri.org/ não está marcado como anulável
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ObterParametrosSistema", ReplyAction="*")]
+        wsValidacao.ObterParametrosSistemaResponse ObterParametrosSistema(wsValidacao.ObterParametrosSistemaRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ParametrosSistema", ReplyAction="*")]
-        System.Threading.Tasks.Task<wsValidacao.ParametrosSistemaResponse> ParametrosSistemaAsync(wsValidacao.ParametrosSistemaRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ObterParametrosSistema", ReplyAction="*")]
+        System.Threading.Tasks.Task<wsValidacao.ObterParametrosSistemaResponse> ObterParametrosSistemaAsync(wsValidacao.ObterParametrosSistemaRequest request);
         
         // CODEGEN: Gerando contrato de mensagem porque o nome do elemento RetornarMsgErroResult do namespace http://tempuri.org/ não está marcado como anulável
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RetornarMsgErro", ReplyAction="*")]
@@ -2995,10 +3219,18 @@ namespace wsValidacao
         System.Threading.Tasks.Task<wsValidacao.CarregarIdentificacaoCivilResponse> CarregarIdentificacaoCivilAsync(wsValidacao.CarregarIdentificacaoCivilRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ExisteCarteira", ReplyAction="*")]
-        bool ExisteCarteira(long p_iRic);
+        wsValidacao.ExisteCarteiraResponse ExisteCarteira(wsValidacao.ExisteCarteiraRequest request);
         
+        // CODEGEN: Gerando contrato de mensagem porque a operação tem vários valores retornados.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ExisteCarteira", ReplyAction="*")]
-        System.Threading.Tasks.Task<bool> ExisteCarteiraAsync(long p_iRic);
+        System.Threading.Tasks.Task<wsValidacao.ExisteCarteiraResponse> ExisteCarteiraAsync(wsValidacao.ExisteCarteiraRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ExisteCINCpf", ReplyAction="*")]
+        wsValidacao.ExisteCINCpfResponse ExisteCINCpf(wsValidacao.ExisteCINCpfRequest request);
+        
+        // CODEGEN: Gerando contrato de mensagem porque a operação tem vários valores retornados.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ExisteCINCpf", ReplyAction="*")]
+        System.Threading.Tasks.Task<wsValidacao.ExisteCINCpfResponse> ExisteCINCpfAsync(wsValidacao.ExisteCINCpfRequest request);
         
         // CODEGEN: Gerando contrato de mensagem porque o nome do elemento p_sIp do namespace http://tempuri.org/ não está marcado como anulável
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/VerificarQtdLimiteSolicitacoesIP", ReplyAction="*")]
@@ -3019,6 +3251,12 @@ namespace wsValidacao
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ConsultarProtocolo", ReplyAction="*")]
         System.Threading.Tasks.Task<wsValidacao.ConsultarProtocoloResponse> ConsultarProtocoloAsync(wsValidacao.ConsultarProtocoloRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ConsultarProtocoloCpf", ReplyAction="*")]
+        wsValidacao.ConsultarProtocoloCpfResponse ConsultarProtocoloCpf(wsValidacao.ConsultarProtocoloCpfRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ConsultarProtocoloCpf", ReplyAction="*")]
+        System.Threading.Tasks.Task<wsValidacao.ConsultarProtocoloCpfResponse> ConsultarProtocoloCpfAsync(wsValidacao.ConsultarProtocoloCpfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ConsultarAtestado", ReplyAction="*")]
         wsValidacao.ConsultarAtestadoResponse ConsultarAtestado(wsValidacao.ConsultarAtestadoRequest request);
@@ -3174,10 +3412,24 @@ namespace wsValidacao
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/FecharDetranAlerta", ReplyAction="*")]
         System.Threading.Tasks.Task<wsValidacao.FecharDetranAlertaResponse> FecharDetranAlertaAsync(wsValidacao.FecharDetranAlertaRequest request);
+        
+        // CODEGEN: Gerando contrato de mensagem porque o nome do elemento RetornaNomeFuncionalSeapResult do namespace http://tempuri.org/ não está marcado como anulável
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RetornaNomeFuncionalSeap", ReplyAction="*")]
+        wsValidacao.RetornaNomeFuncionalSeapResponse RetornaNomeFuncionalSeap(wsValidacao.RetornaNomeFuncionalSeapRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RetornaNomeFuncionalSeap", ReplyAction="*")]
+        System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeapResponse> RetornaNomeFuncionalSeapAsync(wsValidacao.RetornaNomeFuncionalSeapRequest request);
+        
+        // CODEGEN: Gerando contrato de mensagem porque o nome do elemento RetornaNomeFuncionalSeap_CautelaResult do namespace http://tempuri.org/ não está marcado como anulável
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RetornaNomeFuncionalSeap_Cautela", ReplyAction="*")]
+        wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse RetornaNomeFuncionalSeap_Cautela(wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/RetornaNomeFuncionalSeap_Cautela", ReplyAction="*")]
+        System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse> RetornaNomeFuncionalSeap_CautelaAsync(wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class IncluirLogNovoRequest
@@ -3197,7 +3449,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class IncluirLogNovoRequestBody
@@ -3229,7 +3481,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class IncluirLogNovoResponse
@@ -3249,7 +3501,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class IncluirLogNovoResponseBody
@@ -3261,79 +3513,79 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class ParametrosSistemaRequest
+    public partial class ObterParametrosSistemaRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="ParametrosSistema", Namespace="http://tempuri.org/", Order=0)]
-        public wsValidacao.ParametrosSistemaRequestBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="ObterParametrosSistema", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.ObterParametrosSistemaRequestBody Body;
         
-        public ParametrosSistemaRequest()
+        public ObterParametrosSistemaRequest()
         {
         }
         
-        public ParametrosSistemaRequest(wsValidacao.ParametrosSistemaRequestBody Body)
+        public ObterParametrosSistemaRequest(wsValidacao.ObterParametrosSistemaRequestBody Body)
         {
             this.Body = Body;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
-    public partial class ParametrosSistemaRequestBody
+    public partial class ObterParametrosSistemaRequestBody
     {
         
-        public ParametrosSistemaRequestBody()
+        public ObterParametrosSistemaRequestBody()
         {
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class ParametrosSistemaResponse
+    public partial class ObterParametrosSistemaResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="ParametrosSistemaResponse", Namespace="http://tempuri.org/", Order=0)]
-        public wsValidacao.ParametrosSistemaResponseBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="ObterParametrosSistemaResponse", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.ObterParametrosSistemaResponseBody Body;
         
-        public ParametrosSistemaResponse()
+        public ObterParametrosSistemaResponse()
         {
         }
         
-        public ParametrosSistemaResponse(wsValidacao.ParametrosSistemaResponseBody Body)
+        public ObterParametrosSistemaResponse(wsValidacao.ObterParametrosSistemaResponseBody Body)
         {
             this.Body = Body;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class ParametrosSistemaResponseBody
+    public partial class ObterParametrosSistemaResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.ParametrosSistemaDTO ParametrosSistemaResult;
+        public wsValidacao.ParametrosSistema ObterParametrosSistemaResult;
         
-        public ParametrosSistemaResponseBody()
+        public ObterParametrosSistemaResponseBody()
         {
         }
         
-        public ParametrosSistemaResponseBody(wsValidacao.ParametrosSistemaDTO ParametrosSistemaResult)
+        public ObterParametrosSistemaResponseBody(wsValidacao.ParametrosSistema ObterParametrosSistemaResult)
         {
-            this.ParametrosSistemaResult = ParametrosSistemaResult;
+            this.ObterParametrosSistemaResult = ObterParametrosSistemaResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarMsgErroRequest
@@ -3353,7 +3605,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarMsgErroRequestBody
@@ -3373,7 +3625,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarMsgErroResponse
@@ -3393,7 +3645,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarMsgErroResponseBody
@@ -3413,7 +3665,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarUFRequest
@@ -3433,7 +3685,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class CarregarUFRequestBody
@@ -3445,7 +3697,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarUFResponse
@@ -3465,27 +3717,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarUFResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.UF_DTO[] CarregarUFResult;
+        public wsValidacao.UF[] CarregarUFResult;
         
         public CarregarUFResponseBody()
         {
         }
         
-        public CarregarUFResponseBody(wsValidacao.UF_DTO[] CarregarUFResult)
+        public CarregarUFResponseBody(wsValidacao.UF[] CarregarUFResult)
         {
             this.CarregarUFResult = CarregarUFResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarMotivoRequest
@@ -3505,7 +3757,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class CarregarMotivoRequestBody
@@ -3517,7 +3769,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarMotivoResponse
@@ -3537,27 +3789,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarMotivoResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.MotivoDTO[] CarregarMotivoResult;
+        public wsValidacao.Motivo[] CarregarMotivoResult;
         
         public CarregarMotivoResponseBody()
         {
         }
         
-        public CarregarMotivoResponseBody(wsValidacao.MotivoDTO[] CarregarMotivoResult)
+        public CarregarMotivoResponseBody(wsValidacao.Motivo[] CarregarMotivoResult)
         {
             this.CarregarMotivoResult = CarregarMotivoResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarMunicipioRequest
@@ -3577,7 +3829,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarMunicipioRequestBody
@@ -3597,7 +3849,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarMunicipioResponse
@@ -3617,27 +3869,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarMunicipioResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.MunicipioDTO[] CarregarMunicipioResult;
+        public wsValidacao.Municipio[] CarregarMunicipioResult;
         
         public CarregarMunicipioResponseBody()
         {
         }
         
-        public CarregarMunicipioResponseBody(wsValidacao.MunicipioDTO[] CarregarMunicipioResult)
+        public CarregarMunicipioResponseBody(wsValidacao.Municipio[] CarregarMunicipioResult)
         {
             this.CarregarMunicipioResult = CarregarMunicipioResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarDataSitemaRequest
@@ -3657,7 +3909,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class CarregarDataSitemaRequestBody
@@ -3669,7 +3921,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarDataSitemaResponse
@@ -3689,7 +3941,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarDataSitemaResponseBody
@@ -3709,7 +3961,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarIdentificacaoCivilRequest
@@ -3729,7 +3981,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarIdentificacaoCivilRequestBody
@@ -3749,7 +4001,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class CarregarIdentificacaoCivilResponse
@@ -3769,27 +4021,123 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class CarregarIdentificacaoCivilResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.IdentificacaoDTO CarregarIdentificacaoCivilResult;
+        public wsValidacao.Identificacao CarregarIdentificacaoCivilResult;
         
         public CarregarIdentificacaoCivilResponseBody()
         {
         }
         
-        public CarregarIdentificacaoCivilResponseBody(wsValidacao.IdentificacaoDTO CarregarIdentificacaoCivilResult)
+        public CarregarIdentificacaoCivilResponseBody(wsValidacao.Identificacao CarregarIdentificacaoCivilResult)
         {
             this.CarregarIdentificacaoCivilResult = CarregarIdentificacaoCivilResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ExisteCarteira", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ExisteCarteiraRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public long p_iRic;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long p_iCpf;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public long p_iRicAchado;
+        
+        public ExisteCarteiraRequest()
+        {
+        }
+        
+        public ExisteCarteiraRequest(long p_iRic, long p_iCpf, long p_iRicAchado)
+        {
+            this.p_iRic = p_iRic;
+            this.p_iCpf = p_iCpf;
+            this.p_iRicAchado = p_iRicAchado;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ExisteCarteiraResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ExisteCarteiraResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public bool ExisteCarteiraResult;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long p_iRicAchado;
+        
+        public ExisteCarteiraResponse()
+        {
+        }
+        
+        public ExisteCarteiraResponse(bool ExisteCarteiraResult, long p_iRicAchado)
+        {
+            this.ExisteCarteiraResult = ExisteCarteiraResult;
+            this.p_iRicAchado = p_iRicAchado;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ExisteCINCpf", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ExisteCINCpfRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public long p_Nucpf;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long p_iRicAchado;
+        
+        public ExisteCINCpfRequest()
+        {
+        }
+        
+        public ExisteCINCpfRequest(long p_Nucpf, long p_iRicAchado)
+        {
+            this.p_Nucpf = p_Nucpf;
+            this.p_iRicAchado = p_iRicAchado;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ExisteCINCpfResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ExisteCINCpfResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public bool ExisteCINCpfResult;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public long p_iRicAchado;
+        
+        public ExisteCINCpfResponse()
+        {
+        }
+        
+        public ExisteCINCpfResponse(bool ExisteCINCpfResult, long p_iRicAchado)
+        {
+            this.ExisteCINCpfResult = ExisteCINCpfResult;
+            this.p_iRicAchado = p_iRicAchado;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarQtdLimiteSolicitacoesIPRequest
@@ -3809,7 +4157,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class VerificarQtdLimiteSolicitacoesIPRequestBody
@@ -3833,7 +4181,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarQtdLimiteSolicitacoesIPResponse
@@ -3853,7 +4201,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class VerificarQtdLimiteSolicitacoesIPResponseBody
@@ -3873,7 +4221,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarEnderecoCEPRequest
@@ -3893,7 +4241,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarEnderecoCEPRequestBody
@@ -3913,7 +4261,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarEnderecoCEPResponse
@@ -3933,27 +4281,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarEnderecoCEPResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.EnderecoDTO RetornarEnderecoCEPResult;
+        public wsValidacao.Endereco RetornarEnderecoCEPResult;
         
         public RetornarEnderecoCEPResponseBody()
         {
         }
         
-        public RetornarEnderecoCEPResponseBody(wsValidacao.EnderecoDTO RetornarEnderecoCEPResult)
+        public RetornarEnderecoCEPResponseBody(wsValidacao.Endereco RetornarEnderecoCEPResult)
         {
             this.RetornarEnderecoCEPResult = RetornarEnderecoCEPResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ConsultarProtocoloRequest
     {
@@ -3972,7 +4320,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ConsultarProtocoloRequestBody
     {
@@ -4011,7 +4359,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ConsultarProtocoloResponse
     {
@@ -4030,13 +4378,13 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ConsultarProtocoloResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.SolicitacaoDTO ConsultarProtocoloResult;
+        public wsValidacao.Solicitacao ConsultarProtocoloResult;
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
         public string r_sMsgUsuario;
@@ -4045,7 +4393,7 @@ namespace wsValidacao
         {
         }
         
-        public ConsultarProtocoloResponseBody(wsValidacao.SolicitacaoDTO ConsultarProtocoloResult, string r_sMsgUsuario)
+        public ConsultarProtocoloResponseBody(wsValidacao.Solicitacao ConsultarProtocoloResult, string r_sMsgUsuario)
         {
             this.ConsultarProtocoloResult = ConsultarProtocoloResult;
             this.r_sMsgUsuario = r_sMsgUsuario;
@@ -4053,7 +4401,107 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class ConsultarProtocoloCpfRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="ConsultarProtocoloCpf", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.ConsultarProtocoloCpfRequestBody Body;
+        
+        public ConsultarProtocoloCpfRequest()
+        {
+        }
+        
+        public ConsultarProtocoloCpfRequest(wsValidacao.ConsultarProtocoloCpfRequestBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class ConsultarProtocoloCpfRequestBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string p_sProtocolo;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string p_sSqSolicitacao;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
+        public string p_sNuCpf;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
+        public string p_sNome;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=4)]
+        public wsValidacao.TpConsultaProtocolo tipo_consulta;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
+        public string r_sMsgUsuario;
+        
+        public ConsultarProtocoloCpfRequestBody()
+        {
+        }
+        
+        public ConsultarProtocoloCpfRequestBody(string p_sProtocolo, string p_sSqSolicitacao, string p_sNuCpf, string p_sNome, wsValidacao.TpConsultaProtocolo tipo_consulta, string r_sMsgUsuario)
+        {
+            this.p_sProtocolo = p_sProtocolo;
+            this.p_sSqSolicitacao = p_sSqSolicitacao;
+            this.p_sNuCpf = p_sNuCpf;
+            this.p_sNome = p_sNome;
+            this.tipo_consulta = tipo_consulta;
+            this.r_sMsgUsuario = r_sMsgUsuario;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class ConsultarProtocoloCpfResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="ConsultarProtocoloCpfResponse", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.ConsultarProtocoloCpfResponseBody Body;
+        
+        public ConsultarProtocoloCpfResponse()
+        {
+        }
+        
+        public ConsultarProtocoloCpfResponse(wsValidacao.ConsultarProtocoloCpfResponseBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class ConsultarProtocoloCpfResponseBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public wsValidacao.Solicitacao ConsultarProtocoloCpfResult;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string r_sMsgUsuario;
+        
+        public ConsultarProtocoloCpfResponseBody()
+        {
+        }
+        
+        public ConsultarProtocoloCpfResponseBody(wsValidacao.Solicitacao ConsultarProtocoloCpfResult, string r_sMsgUsuario)
+        {
+            this.ConsultarProtocoloCpfResult = ConsultarProtocoloCpfResult;
+            this.r_sMsgUsuario = r_sMsgUsuario;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ConsultarAtestadoRequest
     {
@@ -4072,7 +4520,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ConsultarAtestadoRequestBody
     {
@@ -4111,7 +4559,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ConsultarAtestadoResponse
     {
@@ -4130,13 +4578,13 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ConsultarAtestadoResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.SolicitacaoDTO ConsultarAtestadoResult;
+        public wsValidacao.Solicitacao ConsultarAtestadoResult;
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
         public string r_sMsgUsuario;
@@ -4145,7 +4593,7 @@ namespace wsValidacao
         {
         }
         
-        public ConsultarAtestadoResponseBody(wsValidacao.SolicitacaoDTO ConsultarAtestadoResult, string r_sMsgUsuario)
+        public ConsultarAtestadoResponseBody(wsValidacao.Solicitacao ConsultarAtestadoResult, string r_sMsgUsuario)
         {
             this.ConsultarAtestadoResult = ConsultarAtestadoResult;
             this.r_sMsgUsuario = r_sMsgUsuario;
@@ -4153,7 +4601,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class IncluirAtestadoRequest
@@ -4173,27 +4621,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class IncluirAtestadoRequestBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.AtestadoDTO oAtestado;
+        public wsValidacao.Atestado oAtestado;
         
         public IncluirAtestadoRequestBody()
         {
         }
         
-        public IncluirAtestadoRequestBody(wsValidacao.AtestadoDTO oAtestado)
+        public IncluirAtestadoRequestBody(wsValidacao.Atestado oAtestado)
         {
             this.oAtestado = oAtestado;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class IncluirAtestadoResponse
@@ -4213,7 +4661,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class IncluirAtestadoResponseBody
@@ -4233,7 +4681,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ImprimirAtestadoRequest
@@ -4253,7 +4701,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ImprimirAtestadoRequestBody
@@ -4273,7 +4721,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class ImprimirAtestadoResponse
@@ -4293,27 +4741,27 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class ImprimirAtestadoResponseBody
     {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public wsValidacao.ImprimirDTO ImprimirAtestadoResult;
+        public wsValidacao.Imprimir ImprimirAtestadoResult;
         
         public ImprimirAtestadoResponseBody()
         {
         }
         
-        public ImprimirAtestadoResponseBody(wsValidacao.ImprimirDTO ImprimirAtestadoResult)
+        public ImprimirAtestadoResponseBody(wsValidacao.Imprimir ImprimirAtestadoResult)
         {
             this.ImprimirAtestadoResult = ImprimirAtestadoResult;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarSolicitanteRequest
     {
@@ -4332,7 +4780,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class VerificarSolicitanteRequestBody
     {
@@ -4371,7 +4819,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarSolicitanteResponse
     {
@@ -4390,7 +4838,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class VerificarSolicitanteResponseBody
     {
@@ -4425,7 +4873,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarPrazoRequest
@@ -4445,7 +4893,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class VerificarPrazoRequestBody
@@ -4457,7 +4905,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class VerificarPrazoResponse
@@ -4477,7 +4925,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class VerificarPrazoResponseBody
@@ -4497,7 +4945,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDestinatariosRequest
@@ -4517,7 +4965,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarDestinatariosRequestBody
@@ -4537,7 +4985,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDestinatariosResponse
@@ -4557,7 +5005,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarDestinatariosResponseBody
@@ -4577,7 +5025,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaNomeCidadaoRequest
@@ -4597,7 +5045,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaNomeCidadaoRequestBody
@@ -4617,7 +5065,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaNomeCidadaoResponse
@@ -4637,7 +5085,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaNomeCidadaoResponseBody
@@ -4657,7 +5105,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarNomePostoRequest
@@ -4677,7 +5125,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarNomePostoRequestBody
@@ -4701,7 +5149,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarNomePostoResponse
@@ -4721,7 +5169,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarNomePostoResponseBody
@@ -4741,7 +5189,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDelegaciasRequest
@@ -4761,7 +5209,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class RetornarDelegaciasRequestBody
@@ -4773,7 +5221,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDelegaciasResponse
@@ -4793,7 +5241,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarDelegaciasResponseBody
@@ -4813,7 +5261,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarMotivoDetranAlertaRequest
@@ -4833,7 +5281,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class RetornarMotivoDetranAlertaRequestBody
@@ -4845,7 +5293,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarMotivoDetranAlertaResponse
@@ -4865,7 +5313,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarMotivoDetranAlertaResponseBody
@@ -4885,7 +5333,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarAtendimentoDetranAlertaRequest
@@ -4905,7 +5353,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarAtendimentoDetranAlertaRequestBody
@@ -4929,7 +5377,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarAtendimentoDetranAlertaResponse
@@ -4949,7 +5397,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarAtendimentoDetranAlertaResponseBody
@@ -4969,7 +5417,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDadosFechaAgendRequest
@@ -4989,7 +5437,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarDadosFechaAgendRequestBody
@@ -5013,7 +5461,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarDadosFechaAgendResponse
@@ -5033,7 +5481,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarDadosFechaAgendResponseBody
@@ -5053,7 +5501,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarFotoCivilRequest
@@ -5073,7 +5521,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarFotoCivilRequestBody
@@ -5093,7 +5541,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarFotoCivilResponse
@@ -5113,7 +5561,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarFotoCivilResponseBody
@@ -5133,7 +5581,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarFotoCriminalRequest
@@ -5153,7 +5601,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarFotoCriminalRequestBody
@@ -5173,7 +5621,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornarFotoCriminalResponse
@@ -5193,7 +5641,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornarFotoCriminalResponseBody
@@ -5213,7 +5661,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaFotoRequest
@@ -5233,7 +5681,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaFotoRequestBody
@@ -5257,7 +5705,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaFotoResponse
@@ -5277,7 +5725,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaFotoResponseBody
@@ -5297,7 +5745,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaStPolinterHistoricoAgendamentoRequest
@@ -5317,7 +5765,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaStPolinterHistoricoAgendamentoRequestBody
@@ -5341,7 +5789,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class RetornaStPolinterHistoricoAgendamentoResponse
@@ -5361,7 +5809,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class RetornaStPolinterHistoricoAgendamentoResponseBody
@@ -5381,7 +5829,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class EfetivarDetranAlertaRequest
@@ -5401,7 +5849,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class EfetivarDetranAlertaRequestBody
@@ -5425,7 +5873,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class EfetivarDetranAlertaResponse
@@ -5445,7 +5893,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class EfetivarDetranAlertaResponseBody
@@ -5457,7 +5905,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class EncaminharDetranAlertaRequest
@@ -5477,7 +5925,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class EncaminharDetranAlertaRequestBody
@@ -5505,7 +5953,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class EncaminharDetranAlertaResponse
@@ -5525,7 +5973,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class EncaminharDetranAlertaResponseBody
@@ -5537,7 +5985,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class FecharDetranAlertaRequest
@@ -5557,7 +6005,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
     public partial class FecharDetranAlertaRequestBody
@@ -5597,7 +6045,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class FecharDetranAlertaResponse
@@ -5617,7 +6065,7 @@ namespace wsValidacao
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
     public partial class FecharDetranAlertaResponseBody
@@ -5628,13 +6076,173 @@ namespace wsValidacao
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class RetornaNomeFuncionalSeapRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="RetornaNomeFuncionalSeap", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.RetornaNomeFuncionalSeapRequestBody Body;
+        
+        public RetornaNomeFuncionalSeapRequest()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeapRequest(wsValidacao.RetornaNomeFuncionalSeapRequestBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class RetornaNomeFuncionalSeapRequestBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public long p_lRic;
+        
+        public RetornaNomeFuncionalSeapRequestBody()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeapRequestBody(long p_lRic)
+        {
+            this.p_lRic = p_lRic;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class RetornaNomeFuncionalSeapResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="RetornaNomeFuncionalSeapResponse", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.RetornaNomeFuncionalSeapResponseBody Body;
+        
+        public RetornaNomeFuncionalSeapResponse()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeapResponse(wsValidacao.RetornaNomeFuncionalSeapResponseBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class RetornaNomeFuncionalSeapResponseBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string RetornaNomeFuncionalSeapResult;
+        
+        public RetornaNomeFuncionalSeapResponseBody()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeapResponseBody(string RetornaNomeFuncionalSeapResult)
+        {
+            this.RetornaNomeFuncionalSeapResult = RetornaNomeFuncionalSeapResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class RetornaNomeFuncionalSeap_CautelaRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="RetornaNomeFuncionalSeap_Cautela", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.RetornaNomeFuncionalSeap_CautelaRequestBody Body;
+        
+        public RetornaNomeFuncionalSeap_CautelaRequest()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeap_CautelaRequest(wsValidacao.RetornaNomeFuncionalSeap_CautelaRequestBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class RetornaNomeFuncionalSeap_CautelaRequestBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public long p_lRic;
+        
+        public RetornaNomeFuncionalSeap_CautelaRequestBody()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeap_CautelaRequestBody(long p_lRic)
+        {
+            this.p_lRic = p_lRic;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class RetornaNomeFuncionalSeap_CautelaResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="RetornaNomeFuncionalSeap_CautelaResponse", Namespace="http://tempuri.org/", Order=0)]
+        public wsValidacao.RetornaNomeFuncionalSeap_CautelaResponseBody Body;
+        
+        public RetornaNomeFuncionalSeap_CautelaResponse()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeap_CautelaResponse(wsValidacao.RetornaNomeFuncionalSeap_CautelaResponseBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class RetornaNomeFuncionalSeap_CautelaResponseBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public wsValidacao.ArrayOfClSeapFuncional RetornaNomeFuncionalSeap_CautelaResult;
+        
+        public RetornaNomeFuncionalSeap_CautelaResponseBody()
+        {
+        }
+        
+        public RetornaNomeFuncionalSeap_CautelaResponseBody(wsValidacao.ArrayOfClSeapFuncional RetornaNomeFuncionalSeap_CautelaResult)
+        {
+            this.RetornaNomeFuncionalSeap_CautelaResult = RetornaNomeFuncionalSeap_CautelaResult;
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     public interface ServiceSoapChannel : wsValidacao.ServiceSoap, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     public partial class ServiceSoapClient : System.ServiceModel.ClientBase<wsValidacao.ServiceSoap>, wsValidacao.ServiceSoap
     {
         
@@ -5706,30 +6314,30 @@ namespace wsValidacao
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        wsValidacao.ParametrosSistemaResponse wsValidacao.ServiceSoap.ParametrosSistema(wsValidacao.ParametrosSistemaRequest request)
+        wsValidacao.ObterParametrosSistemaResponse wsValidacao.ServiceSoap.ObterParametrosSistema(wsValidacao.ObterParametrosSistemaRequest request)
         {
-            return base.Channel.ParametrosSistema(request);
+            return base.Channel.ObterParametrosSistema(request);
         }
         
-        public wsValidacao.ParametrosSistemaDTO ParametrosSistema()
+        public wsValidacao.ParametrosSistema ObterParametrosSistema()
         {
-            wsValidacao.ParametrosSistemaRequest inValue = new wsValidacao.ParametrosSistemaRequest();
-            inValue.Body = new wsValidacao.ParametrosSistemaRequestBody();
-            wsValidacao.ParametrosSistemaResponse retVal = ((wsValidacao.ServiceSoap)(this)).ParametrosSistema(inValue);
-            return retVal.Body.ParametrosSistemaResult;
+            wsValidacao.ObterParametrosSistemaRequest inValue = new wsValidacao.ObterParametrosSistemaRequest();
+            inValue.Body = new wsValidacao.ObterParametrosSistemaRequestBody();
+            wsValidacao.ObterParametrosSistemaResponse retVal = ((wsValidacao.ServiceSoap)(this)).ObterParametrosSistema(inValue);
+            return retVal.Body.ObterParametrosSistemaResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<wsValidacao.ParametrosSistemaResponse> wsValidacao.ServiceSoap.ParametrosSistemaAsync(wsValidacao.ParametrosSistemaRequest request)
+        System.Threading.Tasks.Task<wsValidacao.ObterParametrosSistemaResponse> wsValidacao.ServiceSoap.ObterParametrosSistemaAsync(wsValidacao.ObterParametrosSistemaRequest request)
         {
-            return base.Channel.ParametrosSistemaAsync(request);
+            return base.Channel.ObterParametrosSistemaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<wsValidacao.ParametrosSistemaResponse> ParametrosSistemaAsync()
+        public System.Threading.Tasks.Task<wsValidacao.ObterParametrosSistemaResponse> ObterParametrosSistemaAsync()
         {
-            wsValidacao.ParametrosSistemaRequest inValue = new wsValidacao.ParametrosSistemaRequest();
-            inValue.Body = new wsValidacao.ParametrosSistemaRequestBody();
-            return ((wsValidacao.ServiceSoap)(this)).ParametrosSistemaAsync(inValue);
+            wsValidacao.ObterParametrosSistemaRequest inValue = new wsValidacao.ObterParametrosSistemaRequest();
+            inValue.Body = new wsValidacao.ObterParametrosSistemaRequestBody();
+            return ((wsValidacao.ServiceSoap)(this)).ObterParametrosSistemaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -5767,7 +6375,7 @@ namespace wsValidacao
             return base.Channel.CarregarUF(request);
         }
         
-        public wsValidacao.UF_DTO[] CarregarUF()
+        public wsValidacao.UF[] CarregarUF()
         {
             wsValidacao.CarregarUFRequest inValue = new wsValidacao.CarregarUFRequest();
             inValue.Body = new wsValidacao.CarregarUFRequestBody();
@@ -5794,7 +6402,7 @@ namespace wsValidacao
             return base.Channel.CarregarMotivo(request);
         }
         
-        public wsValidacao.MotivoDTO[] CarregarMotivo()
+        public wsValidacao.Motivo[] CarregarMotivo()
         {
             wsValidacao.CarregarMotivoRequest inValue = new wsValidacao.CarregarMotivoRequest();
             inValue.Body = new wsValidacao.CarregarMotivoRequestBody();
@@ -5821,7 +6429,7 @@ namespace wsValidacao
             return base.Channel.CarregarMunicipio(request);
         }
         
-        public wsValidacao.MunicipioDTO[] CarregarMunicipio(string p_sUF)
+        public wsValidacao.Municipio[] CarregarMunicipio(string p_sUF)
         {
             wsValidacao.CarregarMunicipioRequest inValue = new wsValidacao.CarregarMunicipioRequest();
             inValue.Body = new wsValidacao.CarregarMunicipioRequestBody();
@@ -5897,7 +6505,7 @@ namespace wsValidacao
             return base.Channel.CarregarIdentificacaoCivil(request);
         }
         
-        public wsValidacao.IdentificacaoDTO CarregarIdentificacaoCivil(long p_iRic)
+        public wsValidacao.Identificacao CarregarIdentificacaoCivil(long p_iRic)
         {
             wsValidacao.CarregarIdentificacaoCivilRequest inValue = new wsValidacao.CarregarIdentificacaoCivilRequest();
             inValue.Body = new wsValidacao.CarregarIdentificacaoCivilRequestBody();
@@ -5920,14 +6528,47 @@ namespace wsValidacao
             return ((wsValidacao.ServiceSoap)(this)).CarregarIdentificacaoCivilAsync(inValue);
         }
         
-        public bool ExisteCarteira(long p_iRic)
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        wsValidacao.ExisteCarteiraResponse wsValidacao.ServiceSoap.ExisteCarteira(wsValidacao.ExisteCarteiraRequest request)
         {
-            return base.Channel.ExisteCarteira(p_iRic);
+            return base.Channel.ExisteCarteira(request);
         }
         
-        public System.Threading.Tasks.Task<bool> ExisteCarteiraAsync(long p_iRic)
+        public bool ExisteCarteira(long p_iRic, long p_iCpf, ref long p_iRicAchado)
         {
-            return base.Channel.ExisteCarteiraAsync(p_iRic);
+            wsValidacao.ExisteCarteiraRequest inValue = new wsValidacao.ExisteCarteiraRequest();
+            inValue.p_iRic = p_iRic;
+            inValue.p_iCpf = p_iCpf;
+            inValue.p_iRicAchado = p_iRicAchado;
+            wsValidacao.ExisteCarteiraResponse retVal = ((wsValidacao.ServiceSoap)(this)).ExisteCarteira(inValue);
+            p_iRicAchado = retVal.p_iRicAchado;
+            return retVal.ExisteCarteiraResult;
+        }
+        
+        public System.Threading.Tasks.Task<wsValidacao.ExisteCarteiraResponse> ExisteCarteiraAsync(wsValidacao.ExisteCarteiraRequest request)
+        {
+            return base.Channel.ExisteCarteiraAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        wsValidacao.ExisteCINCpfResponse wsValidacao.ServiceSoap.ExisteCINCpf(wsValidacao.ExisteCINCpfRequest request)
+        {
+            return base.Channel.ExisteCINCpf(request);
+        }
+        
+        public bool ExisteCINCpf(long p_Nucpf, ref long p_iRicAchado)
+        {
+            wsValidacao.ExisteCINCpfRequest inValue = new wsValidacao.ExisteCINCpfRequest();
+            inValue.p_Nucpf = p_Nucpf;
+            inValue.p_iRicAchado = p_iRicAchado;
+            wsValidacao.ExisteCINCpfResponse retVal = ((wsValidacao.ServiceSoap)(this)).ExisteCINCpf(inValue);
+            p_iRicAchado = retVal.p_iRicAchado;
+            return retVal.ExisteCINCpfResult;
+        }
+        
+        public System.Threading.Tasks.Task<wsValidacao.ExisteCINCpfResponse> ExisteCINCpfAsync(wsValidacao.ExisteCINCpfRequest request)
+        {
+            return base.Channel.ExisteCINCpfAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -5967,7 +6608,7 @@ namespace wsValidacao
             return base.Channel.RetornarEnderecoCEP(request);
         }
         
-        public wsValidacao.EnderecoDTO RetornarEnderecoCEP(string p_sCEP)
+        public wsValidacao.Endereco RetornarEnderecoCEP(string p_sCEP)
         {
             wsValidacao.RetornarEnderecoCEPRequest inValue = new wsValidacao.RetornarEnderecoCEPRequest();
             inValue.Body = new wsValidacao.RetornarEnderecoCEPRequestBody();
@@ -5996,7 +6637,7 @@ namespace wsValidacao
             return base.Channel.ConsultarProtocolo(request);
         }
         
-        public wsValidacao.SolicitacaoDTO ConsultarProtocolo(string p_sProtocolo, string p_sSqSolicitacao, string p_sNuRic, string p_sNome, wsValidacao.TpConsultaProtocolo tipo_consulta, ref string r_sMsgUsuario)
+        public wsValidacao.Solicitacao ConsultarProtocolo(string p_sProtocolo, string p_sSqSolicitacao, string p_sNuRic, string p_sNome, wsValidacao.TpConsultaProtocolo tipo_consulta, ref string r_sMsgUsuario)
         {
             wsValidacao.ConsultarProtocoloRequest inValue = new wsValidacao.ConsultarProtocoloRequest();
             inValue.Body = new wsValidacao.ConsultarProtocoloRequestBody();
@@ -6031,12 +6672,52 @@ namespace wsValidacao
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        wsValidacao.ConsultarProtocoloCpfResponse wsValidacao.ServiceSoap.ConsultarProtocoloCpf(wsValidacao.ConsultarProtocoloCpfRequest request)
+        {
+            return base.Channel.ConsultarProtocoloCpf(request);
+        }
+        
+        public wsValidacao.Solicitacao ConsultarProtocoloCpf(string p_sProtocolo, string p_sSqSolicitacao, string p_sNuCpf, string p_sNome, wsValidacao.TpConsultaProtocolo tipo_consulta, ref string r_sMsgUsuario)
+        {
+            wsValidacao.ConsultarProtocoloCpfRequest inValue = new wsValidacao.ConsultarProtocoloCpfRequest();
+            inValue.Body = new wsValidacao.ConsultarProtocoloCpfRequestBody();
+            inValue.Body.p_sProtocolo = p_sProtocolo;
+            inValue.Body.p_sSqSolicitacao = p_sSqSolicitacao;
+            inValue.Body.p_sNuCpf = p_sNuCpf;
+            inValue.Body.p_sNome = p_sNome;
+            inValue.Body.tipo_consulta = tipo_consulta;
+            inValue.Body.r_sMsgUsuario = r_sMsgUsuario;
+            wsValidacao.ConsultarProtocoloCpfResponse retVal = ((wsValidacao.ServiceSoap)(this)).ConsultarProtocoloCpf(inValue);
+            r_sMsgUsuario = retVal.Body.r_sMsgUsuario;
+            return retVal.Body.ConsultarProtocoloCpfResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<wsValidacao.ConsultarProtocoloCpfResponse> wsValidacao.ServiceSoap.ConsultarProtocoloCpfAsync(wsValidacao.ConsultarProtocoloCpfRequest request)
+        {
+            return base.Channel.ConsultarProtocoloCpfAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<wsValidacao.ConsultarProtocoloCpfResponse> ConsultarProtocoloCpfAsync(string p_sProtocolo, string p_sSqSolicitacao, string p_sNuCpf, string p_sNome, wsValidacao.TpConsultaProtocolo tipo_consulta, string r_sMsgUsuario)
+        {
+            wsValidacao.ConsultarProtocoloCpfRequest inValue = new wsValidacao.ConsultarProtocoloCpfRequest();
+            inValue.Body = new wsValidacao.ConsultarProtocoloCpfRequestBody();
+            inValue.Body.p_sProtocolo = p_sProtocolo;
+            inValue.Body.p_sSqSolicitacao = p_sSqSolicitacao;
+            inValue.Body.p_sNuCpf = p_sNuCpf;
+            inValue.Body.p_sNome = p_sNome;
+            inValue.Body.tipo_consulta = tipo_consulta;
+            inValue.Body.r_sMsgUsuario = r_sMsgUsuario;
+            return ((wsValidacao.ServiceSoap)(this)).ConsultarProtocoloCpfAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         wsValidacao.ConsultarAtestadoResponse wsValidacao.ServiceSoap.ConsultarAtestado(wsValidacao.ConsultarAtestadoRequest request)
         {
             return base.Channel.ConsultarAtestado(request);
         }
         
-        public wsValidacao.SolicitacaoDTO ConsultarAtestado(string p_sCod1, string p_sCod2, string p_sCod3, string p_sCod4, string p_sCod5, ref string r_sMsgUsuario)
+        public wsValidacao.Solicitacao ConsultarAtestado(string p_sCod1, string p_sCod2, string p_sCod3, string p_sCod4, string p_sCod5, ref string r_sMsgUsuario)
         {
             wsValidacao.ConsultarAtestadoRequest inValue = new wsValidacao.ConsultarAtestadoRequest();
             inValue.Body = new wsValidacao.ConsultarAtestadoRequestBody();
@@ -6076,7 +6757,7 @@ namespace wsValidacao
             return base.Channel.IncluirAtestado(request);
         }
         
-        public string IncluirAtestado(wsValidacao.AtestadoDTO oAtestado)
+        public string IncluirAtestado(wsValidacao.Atestado oAtestado)
         {
             wsValidacao.IncluirAtestadoRequest inValue = new wsValidacao.IncluirAtestadoRequest();
             inValue.Body = new wsValidacao.IncluirAtestadoRequestBody();
@@ -6091,7 +6772,7 @@ namespace wsValidacao
             return base.Channel.IncluirAtestadoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<wsValidacao.IncluirAtestadoResponse> IncluirAtestadoAsync(wsValidacao.AtestadoDTO oAtestado)
+        public System.Threading.Tasks.Task<wsValidacao.IncluirAtestadoResponse> IncluirAtestadoAsync(wsValidacao.Atestado oAtestado)
         {
             wsValidacao.IncluirAtestadoRequest inValue = new wsValidacao.IncluirAtestadoRequest();
             inValue.Body = new wsValidacao.IncluirAtestadoRequestBody();
@@ -6105,7 +6786,7 @@ namespace wsValidacao
             return base.Channel.ImprimirAtestado(request);
         }
         
-        public wsValidacao.ImprimirDTO ImprimirAtestado(long p_iSequence)
+        public wsValidacao.Imprimir ImprimirAtestado(long p_iSequence)
         {
             wsValidacao.ImprimirAtestadoRequest inValue = new wsValidacao.ImprimirAtestadoRequest();
             inValue.Body = new wsValidacao.ImprimirAtestadoRequestBody();
@@ -6661,6 +7342,64 @@ namespace wsValidacao
             inValue.Body.p_sRic = p_sRic;
             inValue.Body.origem = origem;
             return ((wsValidacao.ServiceSoap)(this)).FecharDetranAlertaAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        wsValidacao.RetornaNomeFuncionalSeapResponse wsValidacao.ServiceSoap.RetornaNomeFuncionalSeap(wsValidacao.RetornaNomeFuncionalSeapRequest request)
+        {
+            return base.Channel.RetornaNomeFuncionalSeap(request);
+        }
+        
+        public string RetornaNomeFuncionalSeap(long p_lRic)
+        {
+            wsValidacao.RetornaNomeFuncionalSeapRequest inValue = new wsValidacao.RetornaNomeFuncionalSeapRequest();
+            inValue.Body = new wsValidacao.RetornaNomeFuncionalSeapRequestBody();
+            inValue.Body.p_lRic = p_lRic;
+            wsValidacao.RetornaNomeFuncionalSeapResponse retVal = ((wsValidacao.ServiceSoap)(this)).RetornaNomeFuncionalSeap(inValue);
+            return retVal.Body.RetornaNomeFuncionalSeapResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeapResponse> wsValidacao.ServiceSoap.RetornaNomeFuncionalSeapAsync(wsValidacao.RetornaNomeFuncionalSeapRequest request)
+        {
+            return base.Channel.RetornaNomeFuncionalSeapAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeapResponse> RetornaNomeFuncionalSeapAsync(long p_lRic)
+        {
+            wsValidacao.RetornaNomeFuncionalSeapRequest inValue = new wsValidacao.RetornaNomeFuncionalSeapRequest();
+            inValue.Body = new wsValidacao.RetornaNomeFuncionalSeapRequestBody();
+            inValue.Body.p_lRic = p_lRic;
+            return ((wsValidacao.ServiceSoap)(this)).RetornaNomeFuncionalSeapAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse wsValidacao.ServiceSoap.RetornaNomeFuncionalSeap_Cautela(wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest request)
+        {
+            return base.Channel.RetornaNomeFuncionalSeap_Cautela(request);
+        }
+        
+        public wsValidacao.ArrayOfClSeapFuncional RetornaNomeFuncionalSeap_Cautela(long p_lRic)
+        {
+            wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest inValue = new wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest();
+            inValue.Body = new wsValidacao.RetornaNomeFuncionalSeap_CautelaRequestBody();
+            inValue.Body.p_lRic = p_lRic;
+            wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse retVal = ((wsValidacao.ServiceSoap)(this)).RetornaNomeFuncionalSeap_Cautela(inValue);
+            return retVal.Body.RetornaNomeFuncionalSeap_CautelaResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse> wsValidacao.ServiceSoap.RetornaNomeFuncionalSeap_CautelaAsync(wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest request)
+        {
+            return base.Channel.RetornaNomeFuncionalSeap_CautelaAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<wsValidacao.RetornaNomeFuncionalSeap_CautelaResponse> RetornaNomeFuncionalSeap_CautelaAsync(long p_lRic)
+        {
+            wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest inValue = new wsValidacao.RetornaNomeFuncionalSeap_CautelaRequest();
+            inValue.Body = new wsValidacao.RetornaNomeFuncionalSeap_CautelaRequestBody();
+            inValue.Body.p_lRic = p_lRic;
+            return ((wsValidacao.ServiceSoap)(this)).RetornaNomeFuncionalSeap_CautelaAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
